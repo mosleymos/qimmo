@@ -1,11 +1,13 @@
-<%=	 render 'layouts/nav' %>
+<%= render 'layouts/nav' %><br>
+
 
 <h1>Toutes les agences</h1>
 
 <% @agences.each do |a| %>
 
     <ul>
-      <li><%= a.raison_sociale %></li>
+      <li><%= link_to a.raison_sociale, a %></li>
+
     </ul>
 
 <% end %>
@@ -13,6 +15,8 @@
 
 
 
+
+agence_path(@agence)
 
 
 
