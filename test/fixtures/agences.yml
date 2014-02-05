@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  raison_sociale: MyString
+  responsable: MyString
+  telephone: MyString
+  progouinon: MyString
+
+two:
+  raison_sociale: MyString
+  responsable: MyString
+  telephone: MyString
+  progouinon: MyString
