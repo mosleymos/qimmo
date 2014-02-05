@@ -5,6 +5,10 @@ class CreateAgences < ActiveRecord::Migration
       t.string :responsable
       t.string :telephone
       t.string :progouinon
+      t.string :rappelouinon
+
+
+
 
       t.timestamps
     end
