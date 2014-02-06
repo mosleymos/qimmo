@@ -4,11 +4,15 @@ show<br>
 <%= @agence.raison_sociale %><br>
 <%= @agence.responsable %><br>
 <%= @agence.telephone %><br>
-<%= @agence.progouinon %><br>
-<%= @agence.created_at %><br>
-<%= @agence.updated_at %><br>
-<%= @agence.email %><br>
-<%= @agence.telephone %><br>
-<%= @agence.rappelerouinon %><br>
+<%= @agence.email %> <br>
 <%= @agence.adresse %><br>
-<%= @agence.cp %><br>
+<%= @agence.cp %><br><br>
+<%= @agence.progouinon %><br>
+
+Rappeler <%= @agence.rappelerouinon %> le |<%= @agence.rappel %>|<br>
+
+
+_______________________________________________________<br>
+
+Créée le : <%= @agence.created_at %> | Maj le : <%= @agence.updated_at %><br>
+

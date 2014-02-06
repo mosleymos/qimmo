@@ -1,6 +1,18 @@
-eddit
+<%= render 'layouts/nav' %><br>
+
+Edit
 
 <%= form_for @agence do |a| %>
-    <%= a.text_field :raison_sociale %>
-    <%= a.submit %> |
+    <%= a.text_field :raison_sociale %><br>
+    <%= a.text_field :responsable %><br>
+    <%= a.text_field :telephone %><br>
+    <%= a.text_field :progouinon %><br>
+    <%= a.datetime_select :rappel %><br>
+
+    <%= a.text_field :email %><br>
+    <%= a.text_field :rappelerouinon %><br>
+    <%= a.text_field :adresse %><br>
+    <%= a.text_field :cp %><br>
+    <%= a.submit %>
+
 <% end %>
