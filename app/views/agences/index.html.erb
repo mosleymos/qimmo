@@ -1,28 +1,33 @@
 <%= render 'layouts/nav' %><br>
 
-
 <h1>Toutes les agences</h1>
 
-<% @agences.each do |a| %>
+<table>
+  <tr>
+    <th>Raison sociale</th>
+    <th>Responsable</th>
+    <th>Téléphone</th>
+    <th>progouinon</th>
+    <th>created_at</th>
+    <th>updated_at</th>
+    <th>email</th>
+    <th>rappelerouinon</th>
+    <th>adresse</th>
+    <th>cp</th>
 
-    <ul>
-      <li><%= link_to a.raison_sociale, a %></li>
-
-    </ul>
+  </tr>
+  <% @agences.each do |a| %>
+      <tr>
+        <td> <%= link_to a.raison_sociale, a %></td>
+        <td> <%= a.responsable %></td>
+        <td> <%= a.telephone %></td>
+        <td> <%= a.progouinon %></td>
+        <td> <%= a.created_at %></td>
+        <td> <%= a.updated_at %></td>
+        <td> <%= a.email %></td>
+        <td> <%= a.rappelerouinon %></td>
+        <td> <%= a.adresse %></td>
+        <td> <%= a.cp %></td>
+      </tr>
 
 <% end %>
-
-
-
-
-
-agence_path(@agence)
-
-
-
-
-
-
-
-
-
