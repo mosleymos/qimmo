@@ -4,6 +4,7 @@ class AgencesController < ApplicationController
     @agences = Agence.all
   end
 
+
   def show
     @agence = Agence.find(params[:id])
   end
