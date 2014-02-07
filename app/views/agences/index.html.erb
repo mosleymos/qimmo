@@ -2,8 +2,14 @@
 
 <h1>Toutes les agences</h1>
 
+<%= search_form_for @search do |f| %>
+    <%= f.label :responsable_cont, "responsable" %>
+    <%= f.text_field :responsable_cont %>
+    <%= f.submit "Search" %>
 
-<
+
+<% end %>
+
 <table>
   <tr>
     <th>Raison sociale</th>
