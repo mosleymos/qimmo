@@ -1287,3 +1287,448 @@ Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-11 12:21:2
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-11 12:21:29 +0100
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (1.1ms)
+  [1m[35mAgence Load (0.3ms)[0m  SELECT "agences".* FROM "agences"
+  Rendered agences/index.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 202ms (Views: 161.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-11 12:31:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-11 12:31:18 +0100
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-11 12:31:21 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (1.0ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-11 12:31:22 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[35mAgence Load (0.3ms)[0m  SELECT "agences".* FROM "agences"
+  Rendered agences/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 79ms (Views: 77.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/agences/2" for 127.0.0.1 at 2014-02-11 12:31:24 +0100
+Processing by AgencesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAgence Load (0.4ms)[0m  [1mSELECT "agences".* FROM "agences" WHERE "agences"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered layouts/_nav.html.erb (0.7ms)
+  Rendered layouts/_navagshow.html.erb (33.7ms)
+  Rendered agences/show.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 83ms (Views: 78.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/agences/new" for 127.0.0.1 at 2014-02-11 12:31:28 +0100
+Processing by AgencesController#new as HTML
+  Rendered agences/new.html.erb within layouts/application (200.0ms)
+Completed 200 OK in 238ms (Views: 236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-11 12:31:58 +0100
+Processing by BienvenuesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered bienvenues/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-11 12:32:00 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.6ms)
+  [1m[35mAgence Load (0.5ms)[0m  SELECT "agences".* FROM "agences"
+  Rendered agences/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/agences/2" for 127.0.0.1 at 2014-02-11 12:32:04 +0100
+Processing by AgencesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAgence Load (0.2ms)[0m  [1mSELECT "agences".* FROM "agences" WHERE "agences"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered layouts/_nav.html.erb (11.1ms)
+  Rendered layouts/_navagshow.html.erb (0.8ms)
+  Rendered agences/show.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/agences/new" for 127.0.0.1 at 2014-02-11 12:32:10 +0100
+Processing by AgencesController#new as HTML
+  Rendered agences/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/agences" for 127.0.0.1 at 2014-02-11 12:32:16 +0100
+Processing by AgencesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7e+qTLgnt1XDsIlOdHQe3XEJqKUidBFGcmuOmBoVIMc=", "agence"=>{"raison_sociale"=>"dqhsdk", "responsable"=>"", "telephone"=>"", "progouinon"=>"", "email"=>"", "rappelouinon"=>"", "adresse"=>"", "cp"=>""}, "commit"=>"Create Agence"}
+Unpermitted parameters: rappelouinon
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (30.8ms)[0m  [1mINSERT INTO "agences" ("adresse", "cp", "created_at", "email", "progouinon", "raison_sociale", "responsable", "telephone", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["adresse", ""], ["cp", ""], ["created_at", Tue, 11 Feb 2014 11:32:16 UTC +00:00], ["email", ""], ["progouinon", ""], ["raison_sociale", "dqhsdk"], ["responsable", ""], ["telephone", ""], ["updated_at", Tue, 11 Feb 2014 11:32:16 UTC +00:00]]
+  [1m[35m (308.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/agences/3
+Completed 302 Found in 351ms (ActiveRecord: 339.3ms)
+
+
+Started GET "/agences/3" for 127.0.0.1 at 2014-02-11 12:32:16 +0100
+Processing by AgencesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAgence Load (0.2ms)[0m  [1mSELECT "agences".* FROM "agences" WHERE "agences"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered layouts/_nav.html.erb (0.7ms)
+  Rendered layouts/_navagshow.html.erb (1.5ms)
+  Rendered agences/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-11 12:32:16 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-11 12:32:16 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-11 12:32:16 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-11 12:32:16 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-11 12:32:16 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-11 12:32:16 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-11 12:32:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-11 12:32:17 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-11 12:32:17 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-11 12:32:17 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-11 12:32:17 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-11 12:32:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-11 12:32:17 +0100
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-11 12:32:21 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[35mAgence Load (0.3ms)[0m  SELECT "agences".* FROM "agences"
+  Rendered agences/index.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/agences?q%5Bs%5D=raison_sociale+asc" for 127.0.0.1 at 2014-02-11 12:32:24 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"q"=>{"s"=>"raison_sociale asc"}}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[36mAgence Load (0.4ms)[0m  [1mSELECT "agences".* FROM "agences" ORDER BY "agences"."raison_sociale" ASC[0m
+  Rendered agences/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 104ms (Views: 102.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/agences?q%5Bs%5D=raison_sociale+asc" for 127.0.0.1 at 2014-02-11 12:42:23 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"q"=>{"s"=>"raison_sociale asc"}}
+  Rendered layouts/_nav.html.erb (0.7ms)
+  [1m[35mAgence Load (12.9ms)[0m  SELECT "agences".* FROM "agences" ORDER BY "agences"."raison_sociale" ASC
+  Rendered agences/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 96ms (Views: 48.2ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-11 12:42:24 +0100
+
+
+Started GET "/agences?q%5Bs%5D=raison_sociale+asc" for 127.0.0.1 at 2014-02-11 12:43:23 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"q"=>{"s"=>"raison_sociale asc"}}
+  Rendered layouts/_nav.html.erb (0.6ms)
+  [1m[36mAgence Load (0.4ms)[0m  [1mSELECT "agences".* FROM "agences" ORDER BY "agences"."raison_sociale" ASC[0m
+  Rendered agences/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:24 +0100
+
+
+Started GET "/agences?q%5Bs%5D=id+asc" for 127.0.0.1 at 2014-02-11 12:43:29 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"q"=>{"s"=>"id asc"}}
+  Rendered layouts/_nav.html.erb (0.6ms)
+  [1m[35mAgence Load (0.4ms)[0m  SELECT "agences".* FROM "agences" ORDER BY "agences"."id" ASC
+  Rendered agences/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/agences?q%5Bs%5D=id+desc" for 127.0.0.1 at 2014-02-11 12:43:30 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"q"=>{"s"=>"id desc"}}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences" ORDER BY "agences"."id" DESC[0m
+  Rendered agences/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=a&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&commit=Search" for 127.0.0.1 at 2014-02-11 12:43:43 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"a", "cp_cont"=>"", "raison_sociale_cont"=>""}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[35mAgence Load (0.5ms)[0m  SELECT "agences".* FROM "agences" WHERE ("agences"."responsable" LIKE '%a%')
+  Rendered agences/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 31ms (Views: 26.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:44 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&commit=Search" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>""}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[36mAgence Load (1.9ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 30ms (Views: 26.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-11 12:43:55 +0100
+
+
+Started GET "/programmes" for 127.0.0.1 at 2014-02-11 12:45:55 +0100
+Processing by ProgrammesController#index as HTML
+  Rendered layouts/_nav.html.erb (3.7ms)
+  [1m[35mProgramme Load (0.2ms)[0m  SELECT "programmes".* FROM "programmes"
+  Rendered programmes/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 23ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/utilisateurs" for 127.0.0.1 at 2014-02-11 12:45:56 +0100
+Processing by UtilisateursController#index as HTML
+  Rendered layouts/_nav.html.erb (0.6ms)
+  [1m[36mUtilisateur Load (0.3ms)[0m  [1mSELECT "utilisateurs".* FROM "utilisateurs"[0m
+  Rendered utilisateurs/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 42ms (Views: 30.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-11 12:45:58 +0100
+Processing by BienvenuesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered bienvenues/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programmes" for 127.0.0.1 at 2014-02-11 12:47:25 +0100
+Processing by ProgrammesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.6ms)
+  [1m[35mProgramme Load (0.2ms)[0m  SELECT "programmes".* FROM "programmes"
+  Rendered programmes/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/utilisateurs" for 127.0.0.1 at 2014-02-11 12:47:27 +0100
+Processing by UtilisateursController#index as HTML
+  Rendered layouts/_nav.html.erb (4.8ms)
+  [1m[36mUtilisateur Load (0.2ms)[0m  [1mSELECT "utilisateurs".* FROM "utilisateurs"[0m
+  Rendered utilisateurs/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/utilisateurs" for 127.0.0.1 at 2014-02-11 12:48:09 +0100
+Processing by UtilisateursController#index as HTML
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[35mUtilisateur Load (0.2ms)[0m  SELECT "utilisateurs".* FROM "utilisateurs"
+  Rendered utilisateurs/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.2ms)

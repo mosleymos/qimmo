@@ -1,8 +1,9 @@
 <%= render 'layouts/nav' %><br>
 
-<h1>Toutes les agences2</h1>
+<h1>Toutes les agences</h1>
 
 <%= search_form_for @search do |f| %>
+    <%= f.label :id_cont, "id" %>
     <%= f.label :responsable_cont, "responsable" %>
     <%= f.text_field :responsable_cont %>
     <%= f.label :cp_cont, "Cp :" %>
@@ -17,7 +18,7 @@
 
 <table>
   <tr>
-
+    <th><%= sort_link @search, :id, "id" %></th>
     <th><%= sort_link @search, :raison_sociale, "Raisons sociale" %></th>
     <th><%= sort_link @search, :responsable, "Responsable" %></th>
     <th><%= sort_link @search, :telephone, "Téléphone" %></th>
@@ -33,6 +34,7 @@
   </tr>
   <% @agences.each do |a| %>
       <tr>
+        <td> <%= link_to a.id, a %></td>
         <td> <%= link_to a.raison_sociale, a %></td>
         <td> <%= a.responsable %></td>
         <td> <%= a.telephone %></td>

@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/agences/index.html.erb" afterPath="$PROJECT_DIR$/app/views/agences/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="qimmo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +40,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/agences/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="90" selection-end="90" vertical-scroll-proportion="0.21428572" vertical-offset="0" max-vertical-offset="810">
+            <state line="2" column="22" selection-start="55" selection-end="55" vertical-scroll-proportion="0.059642147" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -819,7 +818,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5344585" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22081575" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1185,7 +1184,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/agences/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="90" selection-end="90" vertical-scroll-proportion="0.21428572" vertical-offset="0" max-vertical-offset="810">
+        <state line="2" column="22" selection-start="55" selection-end="55" vertical-scroll-proportion="0.059642147" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
