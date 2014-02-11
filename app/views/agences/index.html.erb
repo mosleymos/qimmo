@@ -2,18 +2,30 @@
 
 <h1>Toutes les agences</h1>
 
+<%= search_form_for @search do |f| %>
+    <%= f.label :responsable_cont, "responsable" %>
+    <%= f.text_field :responsable_cont %>
+    <%= f.label :cp_cont, "Cp :" %>
+    <%= f.text_field :cp_cont %>
+    <%= f.label :raison_sociale_cont, "RS :" %>
+    <%= f.text_field :raison_sociale_cont %>
 
-<
+    <%= f.submit "Search" %>
+
+
+<% end %>
+
 <table>
   <tr>
-    <th>Raison sociale</th>
-    <th>Responsable</th>
-    <th>Téléphone</th>
+
+    <th><%= sort_link @search, :raison_sociale, "Raisons sociale" %></th>
+    <th><%= sort_link @search, :responsable, "Responsable" %></th>
+    <th><%= sort_link @search, :telephone, "Téléphone" %></th>
     <th>progouinon</th>
     <th>created_at</th>
     <th>updated_at</th>
     <th>email</th>
-    <th>rappelerouinon</th>
+    <th>rappeleouinon</th>
     <th>rappel</th>
     <th>adresse</th>
     <th>cp</th>
@@ -28,7 +40,7 @@
         <td> <%= a.created_at %></td>
         <td> <%= a.updated_at %></td>
         <td> <%= a.email %></td>
-        <td> <%= a.rappelerouinon %></td>
+        <td> <%= a.rappelouinon %></td>
         <td> <%= a.rappel %></td>
         <td> <%= a.adresse %></td>
         <td> <%= a.cp %></td>

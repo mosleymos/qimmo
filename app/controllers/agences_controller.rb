@@ -1,8 +1,12 @@
 class AgencesController < ApplicationController
 
+
+
   def index
-    @agences = Agence.all
+    @search = Agence.search(params[:q])
+    @agences = @search.result
   end
+
 
   def show
     @agence = Agence.find(params[:id])

@@ -14,16 +14,16 @@
 ActiveRecord::Schema.define(version: 20140206084404) do
 
   create_table "agences", force: true do |t|
-    t.string "raison_sociale"
-    t.string "responsable"
-    t.string "telephone"
-    t.string "progouinon"
+    t.string   "raison_sociale"
+    t.string   "responsable"
+    t.string   "telephone"
+    t.string   "progouinon"
+    t.string   "rappelouinon"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string "email"
-    t.string "rappelerouinon"
-    t.string "adresse"
-    t.string "cp"
+    t.string   "email"
+    t.string   "adresse"
+    t.string   "cp"
     t.datetime "rappel"
   end
 
@@ -33,14 +33,14 @@ ActiveRecord::Schema.define(version: 20140206084404) do
   end
 
   create_table "programmes", force: true do |t|
-    t.string "nom"
+    t.string   "nom"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "utilisateurs", force: true do |t|
-    t.string "nom"
-    t.string "mdp"
+    t.string   "nom"
+    t.string   "mdp"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
