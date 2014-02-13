@@ -5,8 +5,13 @@ Edit
 <%= form_for @agence do |a| %>
     <%= a.text_field :raison_sociale %><br>
     <%= a.text_field :responsable %><br>
-    <%= a.text_field :telephone %><br>
-    <%= a.text_field :progouinon %><br>
+
+    <%=  a.text_field :progouinon %><br>
+    <%= a.label :progouinon %>  <%= a.select :progouinon, ["","Oui","Non"] %><br>
+
+    <%= a.label :progouinon%>  Oui <%= a.radio_button :progouinon, ["Oui"] %> Non<%= a.radio_button :progouinon, ["Non"] %><br>
+    
+
     <%= a.datetime_select :rappel %><br>
 
     <%= a.text_field :email %><br>
