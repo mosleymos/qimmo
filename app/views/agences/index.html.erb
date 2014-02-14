@@ -10,6 +10,8 @@
     <%= f.text_field :cp_cont %>
     <%= f.label :raison_sociale_cont, "RS :" %>
     <%= f.text_field :raison_sociale_cont %>
+    <%= f.label :rappelouinon_cont, "rappel :" %>
+    <%= f.select :rappelouinon_cont, ["","Oui","Non"] %>
 
     <%= f.submit "Search" %>
 
@@ -50,3 +52,4 @@
       </tr>
 
 <% end %>
+    </table>
