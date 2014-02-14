@@ -15919,3 +15919,565 @@ Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 11:38:38 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 11:38:38 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=Non&commit=Search" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>"", "rappelouinon_cont"=>"Non"}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences" WHERE ("agences"."rappelouinon" LIKE '%Non%')[0m
+  Rendered agences/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 41ms (Views: 29.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:29 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=Non&commit=Search" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>"", "rappelouinon_cont"=>"Non"}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[35mAgence Load (0.3ms)[0m  SELECT "agences".* FROM "agences" WHERE ("agences"."rappelouinon" LIKE '%Non%')
+  Rendered agences/index.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 38ms (Views: 34.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:40 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=&commit=Search" for 127.0.0.1 at 2014-02-14 12:05:44 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>"", "rappelouinon_cont"=>""}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[36mAgence Load (0.4ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:44 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:44 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:05:45 +0100
+
+
+Started GET "/agences/5" for 127.0.0.1 at 2014-02-14 12:05:48 +0100
+Processing by AgencesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mAgence Load (0.2ms)[0m  SELECT "agences".* FROM "agences" WHERE "agences"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_navagshow.html.erb (0.7ms)
+  Rendered agences/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-14 12:05:59 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.7ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/agences/5" for 127.0.0.1 at 2014-02-14 12:06:22 +0100
+Processing by AgencesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mAgence Load (0.2ms)[0m  SELECT "agences".* FROM "agences" WHERE "agences"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_navagshow.html.erb (0.8ms)
+  Rendered agences/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/agences/5/edit" for 127.0.0.1 at 2014-02-14 12:06:31 +0100
+Processing by AgencesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAgence Load (0.2ms)[0m  [1mSELECT "agences".* FROM "agences" WHERE "agences"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered agences/edit.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/agences/5" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+Processing by AgencesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7e+qTLgnt1XDsIlOdHQe3XEJqKUidBFGcmuOmBoVIMc=", "agence"=>{"raison_sociale"=>"test", "responsable"=>"", "progouinon"=>"Non", "email"=>"", "rappelouinon"=>"Non", "rappel(1i)"=>"2014", "rappel(2i)"=>"2", "rappel(3i)"=>"13", "rappel(4i)"=>"10", "rappel(5i)"=>"54", "adresse"=>"", "cp"=>""}, "commit"=>"Update Agence", "id"=>"5"}
+  [1m[35mAgence Load (0.1ms)[0m  SELECT "agences".* FROM "agences" WHERE "agences"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "agences" SET "rappelouinon" = ?, "updated_at" = ? WHERE "agences"."id" = 5  [["rappelouinon", "Non"], ["updated_at", Fri, 14 Feb 2014 11:06:38 UTC +00:00]]
+  [1m[36m (260.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/agences/5
+Completed 302 Found in 266ms (ActiveRecord: 261.0ms)
+
+
+Started GET "/agences/5" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+Processing by AgencesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mAgence Load (0.1ms)[0m  SELECT "agences".* FROM "agences" WHERE "agences"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_navagshow.html.erb (0.8ms)
+  Rendered agences/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:06:38 +0100
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-14 12:06:43 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=Non&commit=Search" for 127.0.0.1 at 2014-02-14 12:11:32 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>"", "rappelouinon_cont"=>"Non"}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.4ms)
+  [1m[35mAgence Load (0.3ms)[0m  SELECT "agences".* FROM "agences" WHERE ("agences"."rappelouinon" LIKE '%Non%')
+  Rendered agences/index.html.erb within layouts/application (53.3ms)
+Completed 200 OK in 65ms (Views: 61.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:33 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=64&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=Non&commit=Search" for 127.0.0.1 at 2014-02-14 12:11:46 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"64", "raison_sociale_cont"=>"", "rappelouinon_cont"=>"Non"}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.6ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences" WHERE (("agences"."cp" LIKE '%64%' AND "agences"."rappelouinon" LIKE '%Non%'))[0m
+  Rendered agences/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 43ms (Views: 30.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:46 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:46 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:46 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:46 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:47 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:47 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:47 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:47 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:47 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:47 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:47 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=Non&commit=Search" for 127.0.0.1 at 2014-02-14 12:11:54 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>"", "rappelouinon_cont"=>"Non"}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[35mAgence Load (0.3ms)[0m  SELECT "agences".* FROM "agences" WHERE ("agences"."rappelouinon" LIKE '%Non%')
+  Rendered agences/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 47ms (Views: 43.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:11:55 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=&commit=Search" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>"", "rappelouinon_cont"=>""}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:12:05 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=&commit=Search" for 127.0.0.1 at 2014-02-14 12:14:35 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>"", "rappelouinon_cont"=>""}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.6ms)
+  [1m[35mAgence Load (0.3ms)[0m  SELECT "agences".* FROM "agences"
+  Rendered agences/index.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 12:14:36 +0100
+
+
+Started GET "/agences?utf8=%E2%9C%93&q%5Bresponsable_cont%5D=&q%5Bcp_cont%5D=&q%5Braison_sociale_cont%5D=&q%5Brappelouinon_cont%5D=&commit=Search" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"responsable_cont"=>"", "cp_cont"=>"", "raison_sociale_cont"=>"", "rappelouinon_cont"=>""}, "commit"=>"Search"}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/agences.css?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/programmes.css?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/utilisateurs.css?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/bienvenues.css?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/agences.js?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/bienvenues.js?body=1" for 127.0.0.1 at 2014-02-14 13:47:24 +0100
+
+
+Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-14 13:47:25 +0100
+
+
+Started GET "/assets/utilisateurs.js?body=1" for 127.0.0.1 at 2014-02-14 13:47:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 13:47:25 +0100
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-14 13:47:29 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (6.6ms)
+  [1m[35mAgence Load (0.3ms)[0m  SELECT "agences".* FROM "agences"
+  Rendered agences/index.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-14 13:47:32 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.4ms)
+  [1m[36mAgence Load (0.3ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/agences?q%5Bs%5D=telephone+asc" for 127.0.0.1 at 2014-02-14 13:47:35 +0100
+Processing by AgencesController#index as HTML
+  Parameters: {"q"=>{"s"=>"telephone asc"}}
+  Rendered layouts/_nav.html.erb (0.5ms)
+  [1m[35mAgence Load (0.4ms)[0m  SELECT "agences".* FROM "agences" ORDER BY "agences"."telephone" ASC
+  Rendered agences/index.html.erb within layouts/application (36.1ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.4ms)
