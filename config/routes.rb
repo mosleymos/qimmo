@@ -1,9 +1,12 @@
 Qimmo::Application.routes.draw do
 
 
+
   root "bienvenues#index"
   #resources :bienvenues
 
+
+  resources :groupes
 
   resources :utilisateurs
 

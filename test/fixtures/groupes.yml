@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nom: 
+  num_rue: 
+  type_voie: 
+  adresse: 
+  cp: 
+  ville: 
+  tel: 
+  fax: 
+  email: 
+  contact_civilite: 
+  contact_prenom: 
+  contact_nom: 
+  sitret: MyString
+
+two:
+  nom: 
+  num_rue: 
+  type_voie: 
+  adresse: 
+  cp: 
+  ville: 
+  tel: 
+  fax: 
+  email: 
+  contact_civilite: 
+  contact_prenom: 
+  contact_nom: 
+  sitret: MyString

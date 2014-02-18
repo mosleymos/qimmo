@@ -4,12 +4,16 @@
 
 <%= search_form_for @search do |f| %>
     <%= f.label :id_cont, "id" %>
+
     <%= f.label :responsable_cont, "responsable" %>
     <%= f.text_field :responsable_cont %>
+
     <%= f.label :cp_cont, "Cp :" %>
     <%= f.text_field :cp_cont %>
+
     <%= f.label :raison_sociale_cont, "RS :" %>
     <%= f.text_field :raison_sociale_cont %>
+
     <%= f.label :rappelouinon_cont, "rappel :" %>
     <%= f.select :rappelouinon_cont, ["","Oui","Non"] %>
 

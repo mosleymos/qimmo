@@ -6,14 +6,16 @@ Edit
     <%= a.text_field :raison_sociale %><br>
     <%= a.text_field :responsable %><br>
 
-    <%=  a.text_field :progouinon %><br>
-    <%= a.label :progouinon %>  <%= a.select :progouinon, ["","Oui","Non"] %><br>
+    <%= a.label :progouinon %>  <%= a.select :progouinon, ["", "Oui", "Non"] %><br>
 
-    <%= a.label :progouinon%>  Oui <%= a.radio_button :progouinon, ["Oui"] %> Non<%= a.radio_button :progouinon, ["Non"] %><br>
+    <%= a.label :progouinon %>  Oui <%= a.radio_button :progouinon, ["Oui"] %> Non<%= a.radio_button :progouinon, ["Non"] %><br>
     <%= a.text_field :email %><br>
 
-RAPPEL <%= a.label :rappelouinon%> :  <%=  a.select :rappelouinon, ["","Oui","Non"] %><br>
- le
+    RAPPEL <%= a.label :rappelouinon %> :  <%= a.select :rappelouinon, ["", "Oui", "Non"] %><br>
+
+    <p><%= a.label :rappelouinon, "Rappeler : " %> <%= a.check_box :rappelouinon  %> </p>
+
+    le
 
     <%= a.datetime_select :rappel %><br>
     <%= a.text_field :adresse %><br>

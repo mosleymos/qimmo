@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140206084404) do
+ActiveRecord::Schema.define(version: 20140217120248) do
 
   create_table "agences", force: true do |t|
     t.string   "raison_sociale"
@@ -28,6 +28,24 @@ ActiveRecord::Schema.define(version: 20140206084404) do
   end
 
   create_table "bienvenues", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "groupes", force: true do |t|
+    t.string   "nom"
+    t.string   "num_rue"
+    t.string   "type_voie"
+    t.string   "adresse"
+    t.string   "cp"
+    t.string   "ville"
+    t.string   "tel"
+    t.string   "fax"
+    t.string   "email"
+    t.string   "contact_civilite"
+    t.string   "contact_prenom"
+    t.string   "contact_nom"
+    t.string   "siret"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
