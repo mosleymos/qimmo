@@ -1,0 +1,24 @@
+<%= render 'layouts/nav' %><br>
+
+
+Edit groupe : <%= @groupe.id %><br>
+<%= form_for @groupe do |g| %>
+
+    <%= g.label :nom, 'Nom :' %>  <%= g.text_field :nom %><br>
+    <%= g.label :num_rue, 'num_rue :' %> <%= g.text_field :num_rue %><br>
+    <%= g.label :type_voie, 'type_voie :' %> <%= g.text_field :type_voie %><br>
+    <%= g.label :adresse, 'adresse :' %> <%= g.text_field :adresse %><br>
+    <%= g.label :cp, 'cp :' %> <%= g.text_field :cp %><br>
+    <%= g.label :ville, 'ville :' %> <%= g.text_field :ville %><br>
+    <%= g.label :tel, 'tel :' %> <%= g.text_field :tel %><br>
+    <%= g.label :email, 'email :' %><%= g.text_field :email %><br>
+    <%= g.label :contact_civilite, 'contact_civilite :' %> <%= g.text_field :contact_civilite %><br>
+    <%= g.label :contact_prenom, 'contact_prenom :' %>  <%= g.text_field :contact_prenom %><br>
+    <%= g.label :contact_nom, 'contact_nom :' %> <%= g.text_field :contact_nom %><br>
+    <%= g.label :siret, 'siret :' %> <%= g.text_field :siret %><br>
+
+
+
+    <%= g.submit %>
+
+<% end %>

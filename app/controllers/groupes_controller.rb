@@ -33,6 +33,21 @@ class GroupesController < ApplicationController
 
 
 
+  def update
+    # Dans un premier temps, on réactive la donnée concernée
+    @groupe = Groupe.find(params[:id])
+
+   # On déclare une variable qui déclare les rubriques autorisées à passer
+    groupe_params = params.require(:groupe).permit(:nom, :num_rue, :type_voie, :adresse, :cp, :ville,
+                                                   :tel, :fax, :email, :contact_civilite, :contact_prenom,
+                                                   :contact_nom, :siret)
+   # On met à jour la référence concernée (@agence.update)en mettant à jour les paramètres concernés
+    @groupe.update(groupe_params)
+    redirect_to @groupe
+  end
+
+
+
 
 
 end
