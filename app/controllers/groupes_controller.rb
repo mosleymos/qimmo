@@ -15,6 +15,9 @@ class GroupesController < ApplicationController
     @groupe = Groupe.find(params[:id])
   end
 
+  def new
+    @groupe = Groupe.new
+  end
 
   def create
     # à la diférence de update, on a pas encore d'id, donc on ne peux pas rappeler laligne par son id
@@ -29,9 +32,7 @@ class GroupesController < ApplicationController
   end
 
 
-    def new
-      @groupe = Groupe.new
-    end
+
 
 
 end
