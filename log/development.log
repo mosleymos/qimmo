@@ -32226,3 +32226,96 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 14:08:39
 
 
 Started GET "/assets/programmes.js?body=1" for 127.0.0.1 at 2014-02-18 14:08:39 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 14:34:15 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BienvenuesController#index as HTML
+  Rendered layouts/_nav.html.erb (1.2ms)
+  Rendered bienvenues/index.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 137ms
+
+ActionView::Template::Error (/home/andrew/workspace/qimmo/app/assets/stylesheets/application.css has already been required):
+    4:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    5:     <title><%= content_for?(:title) ? yield(:title) : "Qimmo" %></title>
+    6:     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Qimmo" %>">
+    7:     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    9:     <%= csrf_meta_tags %>
+   10:   </head>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__978633207_84773160'
+
+
+  Rendered /home/andrew/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /home/andrew/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/andrew/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 14:34:19 +0100
+Processing by BienvenuesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.7ms)
+  Rendered bienvenues/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (/home/andrew/workspace/qimmo/app/assets/stylesheets/application.css has already been required):
+    4:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    5:     <title><%= content_for?(:title) ? yield(:title) : "Qimmo" %></title>
+    6:     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Qimmo" %>">
+    7:     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    9:     <%= csrf_meta_tags %>
+   10:   </head>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__978633207_84773160'
+
+
+  Rendered /home/andrew/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/andrew/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/andrew/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 14:38:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BienvenuesController#index as HTML
+  Rendered layouts/_nav.html.erb (1.3ms)
+  Rendered bienvenues/index.html.erb (6.4ms)
+Completed 200 OK in 46ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groupes" for 127.0.0.1 at 2014-02-18 14:38:51 +0100
+Processing by GroupesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.7ms)
+  [1m[35mGroupe Load (0.3ms)[0m  SELECT "groupes".* FROM "groupes"
+  Rendered groupes/index.html.erb (58.9ms)
+Completed 200 OK in 106ms (Views: 60.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/agences" for 127.0.0.1 at 2014-02-18 14:38:53 +0100
+Processing by AgencesController#index as HTML
+  Rendered layouts/_nav.html.erb (3.0ms)
+  [1m[36mAgence Load (0.4ms)[0m  [1mSELECT "agences".* FROM "agences"[0m
+  Rendered agences/index.html.erb (104.7ms)
+Completed 200 OK in 166ms (Views: 107.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/programmes" for 127.0.0.1 at 2014-02-18 14:38:54 +0100
+Processing by ProgrammesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.7ms)
+  [1m[35mProgramme Load (0.2ms)[0m  SELECT "programmes".* FROM "programmes"
+  Rendered programmes/index.html.erb (3.0ms)
+Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/utilisateurs" for 127.0.0.1 at 2014-02-18 14:38:55 +0100
+Processing by UtilisateursController#index as HTML
+  Rendered layouts/_nav.html.erb (0.7ms)
+  [1m[36mUtilisateur Load (0.2ms)[0m  [1mSELECT "utilisateurs".* FROM "utilisateurs"[0m
+  Rendered utilisateurs/index.html.erb (3.3ms)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groupes" for 127.0.0.1 at 2014-02-18 14:44:01 +0100
+Processing by GroupesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.7ms)
+  [1m[35mGroupe Load (0.4ms)[0m  SELECT "groupes".* FROM "groupes"
+  Rendered groupes/index.html.erb (13.0ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.4ms)
