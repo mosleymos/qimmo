@@ -8,6 +8,7 @@ gem 'rails', '4.0.2'
 
 
 gem 'sqlite3', group: :development
+gem 'pry', group: :development
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

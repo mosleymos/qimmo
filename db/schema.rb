@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140217120248) do
+ActiveRecord::Schema.define(version: 20140219101113) do
 
   create_table "agences", force: true do |t|
     t.string   "raison_sociale"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20140217120248) do
     t.string   "adresse"
     t.string   "cp"
     t.datetime "rappel"
+    t.integer  "groupe_id"
   end
 
   create_table "bienvenues", force: true do |t|
