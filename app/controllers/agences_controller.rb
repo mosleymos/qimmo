@@ -5,6 +5,7 @@ class AgencesController < ApplicationController
   def index
     @search = Agence.search(params[:q])
     @agences = @search.result
+
   end
 
 
